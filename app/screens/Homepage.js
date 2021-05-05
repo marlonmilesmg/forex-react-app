@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, StyleSheet, Text, View, ActivityIndicator } from 'react-native';
 
 function Homepage(props) {
     return (
@@ -15,7 +15,7 @@ function Homepage(props) {
 
         <View style={styles.container}>
         <View style={styles.c1}>
-        <View style={styles.indent}>
+        <View style={styles.indent}> 
         <Text>IDR</Text>
         <Text>144 104.50</Text>
         </View>
